@@ -1,1 +1,2 @@
 # ServiceMix-Example
+在ServiceMix平台下如何开发程序并部署到Karaf容器内，同时介绍下karaf容器内置的ActiveMQ消息组件的发送和接收，以及目前应用比较广泛的分布式高吞吐量的消息系统Kafka在Karaf容器中的使用。
