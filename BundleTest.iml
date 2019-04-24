@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Osmorc" name="OSGi">
+      <configuration manifestGenerationMode="OsmorcControlled" manifestLocation="" jarfileLocation="BundleTest-1.0.0.jar" outputPathType="CompilerOutputPath" bndFileLocation="" bundlorFileLocation="" bundleActivator="com.danejiang.Activator" bundleSymbolicName="BundleTest" bundleVersion="1.0.0" ignoreFilePattern="" useProjectDefaultManifestFileLocation="true" alwaysRebuildBundleJAR="false" doNotSynchronizeWithMaven="false">
+        <additionalProperties>
+          <property key="Bundle-Description" value="DaneJiang BundleTest" />
+          <property key="Bundle-Vendor" value="The Apache Software Foundation" />
+          <property key="Bundle-DocURL" value="https://www.apache.org/" />
+          <property key="Import-Package" value="*,org.apache.camel.osgi" />
+          <property key="Private-Package" value="com.danejiang" />
+          <property key="Embed-Dependency" value="*;scope=compile|runtime" />
+          <property key="Bundle-Name" value="DaneJiang BundleTest" />
+          <property key="Bundle-ClassPath" value=".,kafka-clients-2.1.0.jar,zstd-jni-1.3.5-4.jar,lz4-java-1.5.0.jar,snappy-java-1.1.7.2.jar,slf4j-api-1.7.12.jar,jmdns-3.4.1.jar" />
+          <property key="Include-Resource" value="kafka-clients-2.1.0.jar=$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.1.0/kafka-clients-2.1.0.jar,zstd-jni-1.3.5-4.jar=$MAVEN_REPOSITORY$/com/github/luben/zstd-jni/1.3.5-4/zstd-jni-1.3.5-4.jar,lz4-java-1.5.0.jar=$MAVEN_REPOSITORY$/org/lz4/lz4-java/1.5.0/lz4-java-1.5.0.jar,snappy-java-1.1.7.2.jar=$MAVEN_REPOSITORY$/org/xerial/snappy/snappy-java/1.1.7.2/snappy-java-1.1.7.2.jar,slf4j-api-1.7.12.jar=$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar,jmdns-3.4.1.jar=$MAVEN_REPOSITORY$/javax/jmdns/jmdns/3.4.1/jmdns-3.4.1.jar" />
+          <property key="Embedded-Artifacts" value="kafka-clients-2.1.0.jar;g=&quot;org.apache.kafka&quot;;a=&quot;kafka-clients&quot;;v=&quot;2.1.0&quot;,zstd-jni-1.3.5-4.jar;g=&quot;com.github.luben&quot;;a=&quot;zstd-jni&quot;;v=&quot;1.3.5-4&quot;,lz4-java-1.5.0.jar;g=&quot;org.lz4&quot;;a=&quot;lz4-java&quot;;v=&quot;1.5.0&quot;,snappy-java-1.1.7.2.jar;g=&quot;org.xerial.snappy&quot;;a=&quot;snappy-java&quot;;v=&quot;1.1.7.2&quot;,slf4j-api-1.7.12.jar;g=&quot;org.slf4j&quot;;a=&quot;slf4j-api&quot;;v=&quot;1.7.12&quot;,jmdns-3.4.1.jar;g=&quot;javax.jmdns&quot;;a=&quot;jmdns&quot;;v=&quot;3.4.1&quot;" />
+        </additionalProperties>
+        <additionalJARContents />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/target/maven-shared-archive-resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="lib" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.kafka:kafka-clients:2.1.0" level="project" />
+    <orderEntry type="library" name="Maven: com.github.luben:zstd-jni:1.3.5-4" level="project" />
+    <orderEntry type="library" name="Maven: org.lz4:lz4-java:1.5.0" level="project" />
+    <orderEntry type="library" name="Maven: org.xerial.snappy:snappy-java:1.1.7.2" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.12" level="project" />
+    <orderEntry type="library" name="Maven: javax.jmdns:jmdns:3.4.1" level="project" />
+  </component>
+</module>

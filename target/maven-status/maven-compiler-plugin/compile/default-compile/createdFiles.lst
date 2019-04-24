@@ -1,0 +1,6 @@
+com\danejiang\service\mainService.class
+com\danejiang\activemq\activemq$1.class
+com\danejiang\Activator.class
+com\danejiang\activemq\kafka.class
+com\danejiang\activemq\kafka$1.class
+com\danejiang\activemq\activemq.class
